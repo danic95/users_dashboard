@@ -1,0 +1,13 @@
+Service:
+  name: "users_dashboard"
+  path_prefix: ""
+  version: "0.0.1"
+  debug: false
+  port: 8080
+Database:
+  engine: "sqlite"
+  host: ""
+  name: "users_dashboard_db"
+  port: 3306
+  user: ""
+  password: ""
