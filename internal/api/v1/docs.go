@@ -4,7 +4,7 @@ import (
 	"github.com/sanservices/apicore/errs"
 	"github.com/sanservices/apicore/helper"
 
-	_ "embed"
+	//_ "embed"
 
 	"bytes"
 	"github.com/labstack/echo/v4"

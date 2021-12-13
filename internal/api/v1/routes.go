@@ -11,15 +11,28 @@ func (h *Handler) RegisterRoutes(e *echo.Group) {
 	e.GET("/v1/docs", h.getSwaggerIndex)
 	e.GET("/v1/docs/swagger.yml", h.getSwaggerSchema)
 
-	// swagger:route GET /thing things getThingRQ
+	// swagger:route GET /user users getUserRQ
 	//
-	// Retrieves a thing
+	// Retrieves an user
 	//
-	// Retrieves a thing
+	// Retrieves an user
 	//
 	// responses:
-	//    200: getThingRS
+	//    200: getUserRS
 	//    400: badRequestRS
 	//	  500: serverErrorRS
-	e.GET("/v1/thing", h.getThing)
+	e.GET("/v1/user/:id", h.getUser)
+
+	
+	// swagger:route GET /friends friends getfriendsRQ
+	//
+	// Retrieves all friends
+	//
+	// Retrieves all fruebds
+	//
+	// responses:
+	//    200: getFriendsRS
+	//    400: badRequestRS
+	//	  500: serverErrorRS
+	e.GET("/v1/friends/:id", h.getFriends)
 }

@@ -1,7 +1,7 @@
 // users_dashboard service
 //
 // Schemes: http
-// Host: localhost:8080
+// Host: localhost:8081
 // BasePath: /v1
 // Version: 1.0
 //

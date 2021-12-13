@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/yaml.v2"
 	"github.com/danic95/users_dashboard/goutils/tlsutil"
+	"gopkg.in/yaml.v2"
 )
 
 type HeaderKey string

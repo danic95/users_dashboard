@@ -3,8 +3,8 @@ package v1
 import (
 	validator2 "github.com/sanservices/apicore/validator"
 
-	"github.com/danic95/users_dashboard/internal/users_dashboard"
 	"github.com/danic95/users_dashboard/goutils/settings"
+	"github.com/danic95/users_dashboard/internal/users_dashboard"
 )
 
 // Handler handles v1 routes
